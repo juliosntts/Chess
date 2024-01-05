@@ -1,0 +1,7 @@
+C:\Users\Julio\Documents\Curso\Chess\bin\Debug\Chess.exe.config
+C:\Users\Julio\Documents\Curso\Chess\bin\Debug\Chess.exe
+C:\Users\Julio\Documents\Curso\Chess\bin\Debug\Chess.pdb
+C:\Users\Julio\Documents\Curso\Chess\obj\Debug\Chess_console.csproj.AssemblyReference.cache
+C:\Users\Julio\Documents\Curso\Chess\obj\Debug\Chess_console.csproj.CoreCompileInputs.cache
+C:\Users\Julio\Documents\Curso\Chess\obj\Debug\Chess.exe
+C:\Users\Julio\Documents\Curso\Chess\obj\Debug\Chess.pdb

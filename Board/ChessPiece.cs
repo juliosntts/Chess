@@ -8,9 +8,9 @@
         public Board Brd { get; protected set; }
 
         public ChessPiece() { }
-        public ChessPiece (Position position, Color color, Board brd)
+        public ChessPiece (Color color, Board brd)
         {
-            this.Position = position;
+            this.Position = null;
             this.Color = color;
             this.Brd = brd;
             this.AmountOfMovements = 0;

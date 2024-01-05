@@ -7,10 +7,15 @@
         private ChessPiece[,] ChessPieces;
         
         public Board() { }
-        public Board(int line, int columns) { 
-            this.Lines = line;
+        public Board(int lines, int columns) { 
+            this.Lines = lines;
             this.Columns = columns;
-            ChessPieces = new ChessPiece[Lines, Columns];
+            ChessPieces = new ChessPiece[lines, columns];
+        }
+
+        public ChessPiece Piece(int line, int column)
+        {
+            return ChessPieces[line, column];
         }
     }
 }

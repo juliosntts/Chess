@@ -49,6 +49,7 @@
     <Compile Include="board\ExceptionBoard.cs" />
     <Compile Include="board\Position.cs" />
     <Compile Include="chess\King.cs" />
+    <Compile Include="chess\PositionChess.cs" />
     <Compile Include="chess\Tower.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -16,5 +16,10 @@
             this.AmountOfMovements = 0;
         }
 
+        public void IncreaseAmountOfMovements()
+        {
+            this.AmountOfMovements++;
+        }
+
     }
 }

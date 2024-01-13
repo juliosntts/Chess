@@ -58,5 +58,17 @@ namespace board
             ChessPieces[pos.Line, pos.Column] = p;
             p.Position = pos;
         }
+
+        public ChessPiece RemovePiece(Position pos)
+        {
+            if (Piece(pos) == null)
+            {
+                return null;
+            }
+            ChessPiece aux = Piece(pos);
+            aux.Position = null;
+            ChessPieces[pos.Line, pos.Column] = null;
+            return aux;
+        }
     }
 }

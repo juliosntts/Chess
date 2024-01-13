@@ -48,8 +48,13 @@
     <Compile Include="board\Color.cs" />
     <Compile Include="board\ExceptionBoard.cs" />
     <Compile Include="board\Position.cs" />
+    <Compile Include="chess\Bishop.cs" />
+    <Compile Include="chess\ChessMatch.cs" />
+    <Compile Include="chess\Horse.cs" />
     <Compile Include="chess\King.cs" />
+    <Compile Include="chess\Pawn.cs" />
     <Compile Include="chess\PositionChess.cs" />
+    <Compile Include="chess\Queen.cs" />
     <Compile Include="chess\Tower.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

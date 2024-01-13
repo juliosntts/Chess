@@ -7,8 +7,6 @@ namespace chess
         public char Column { get; set; }
         public int Line { get; set; }
 
-        public PositionChess() { }
-
         public PositionChess(char column, int line)
         {
             this.Column = column;

@@ -13,7 +13,7 @@ namespace chess
             this.Line = line;
         }
 
-        public Position toPosition()
+        public Position ToPosition()
         {
             return new Position(8 - Line, Column - 'a');
         }

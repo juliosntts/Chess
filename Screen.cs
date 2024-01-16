@@ -30,6 +30,14 @@ namespace Chess
 
         }
 
+        public static PositionChess ReadChessPosition()
+        {
+            string positionPiece = Console.ReadLine();
+            char column = positionPiece[0];
+            int line = int.Parse(positionPiece[1] + "");
+            return new PositionChess(column, line);
+        }
+
         public static void PrintPiece(ChessPiece Piece)
         {
             if (Piece.Color == Color.White)
